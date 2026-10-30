@@ -239,3 +239,23 @@ nav a {
     background-color:var(--acento);
     color: var(--oscuro);
 }
+
+#titulo_contacto{
+    color:#3E3630;
+    font-size:35px;
+}
+
+form{
+    max-width:400px;
+    min-width:220px;
+    margin: auto auto;
+    padding: 45px;
+    background-color: var(--tarjeta);
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(62, 54, 48, 0.15);
+}
+.encuadre{
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing:2px;
+}
