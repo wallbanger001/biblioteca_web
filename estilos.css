@@ -333,3 +333,11 @@ form button[type="submit"] {
         max-width: 320px;
     }
 }
+
+/* ---------- 10. Responsive ---------- */
+h2{
+    color:white;
+    background-color:#A79A8A;
+    margin:0px;
+}
+
