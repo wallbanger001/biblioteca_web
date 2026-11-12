@@ -98,6 +98,78 @@ footer p {
     font-size: 18px;
 }
 
+/* ---------- Página Nosotros ---------- */
+.presentacion {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 30px 24px;
+    color: var(--oscuro);
+    line-height: 1.8;
+    background-color: var(--tarjeta);
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(62, 54, 48, 0.12);
+}
+
+.presentacion h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--oscuro);
+    margin-top: 28px;
+    margin-bottom: 6px;
+}
+
+.presentacion p {
+    font-size: 20px;
+    margin: 0 0 16px 0;
+}
+
+.lista-nosotros {
+    padding-left: 20px;
+    margin: 0 0 16px 0;
+}
+
+.lista-nosotros li {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.frase-final {
+    font-style: italic;
+    margin-top: 24px;
+    color: var(--oscuro);
+}
+
+/* ---------- Título flotante de categoría ---------- */
+.libros_accion,
+.libros_comedia,
+.libros_terror,
+.libros_aventura {
+    position: relative;
+    margin-top: 40px;
+}
+
+.libros_accion .contenedor-libros,
+.libros_comedia .contenedor-libros,
+.libros_terror .contenedor-libros,
+.libros_aventura .contenedor-libros {
+    padding-top: 80px;
+    gap: 50px;
+}
+
+.titulo-flotante {
+    padding-bottom: 45px;
+    position: absolute;
+    top: -24px;
+    left: 500px;
+    background-color: var(--oscuro);
+    color: var(--tarjeta);
+    padding: 10px 22px;
+    border-radius: 12px;
+    font-size: 1.35rem;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(62, 54, 48, 0.25);
+    z-index: 2;
+}
+
 /* ---------- 6. Enlaces generales ---------- */
 .contenedor-libros a {
     text-decoration: none;
